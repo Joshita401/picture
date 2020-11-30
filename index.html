@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picture gallary</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<h1>Nature Picture</h1>
+<section>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+	<div class="item active">
+		<center>
+			<img src="a496c2b6bc5d7cfe0e0674f6598c38ad.jpg" width="300" class="img-responsive"> 
+			<div class="carousel-content">
+				<p>Landscape</p>
+			</div>
+		</center>
+	</div>
+	<div class="item">
+		<center>
+			<img src="northern-lights-istock.webp" width="300" class="img-responsive">
+			<div class="carousel-content">
+				<p>Northern lights</p>
+			</div>
+		</center>
+	</div>
+	<div class="item">
+		<center>
+			<img src="stars.jpg" width="300" class="img-responsive">
+			<div class="carousel-content">
+				<p>Sea</p>
+			</div>
+		</center>
+	</div>
+	<div class="item">
+		<center>
+			<img src="shutterstock_1045743757.jpg" width="300" class="img-responsive">
+			<div class="carousel-content">
+				<p>Grasses</p>
+			</div>
+		</center>
+	</div>
+	</div>
+</div>
+</section>
+<a class="left carousel-control" href="#myCarouse2" data-slide="prev" onclick="plusSlides(-1)">
+	<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#myCarouse2" data-slide="next" onclick="plusSlides(1)">
+	<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+<div style="text-align: center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+</body>
+</html>
